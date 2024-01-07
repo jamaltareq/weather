@@ -33,7 +33,7 @@ function displayWea(listUp) {
         class="header d-flex justify-content-between align-items-center rounded-top-3"
       >
         <span>${day}</span>
-        <span>${d.getDay()} ${ namemonth}</span>
+        <span>${d.getDate()} ${ namemonth}</span>
       </div>
       <div class="content-card">
         <p class="px-4 py-4 fs-4">${listUp.location.name}</p>
